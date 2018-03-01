@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="d891f81c-a4e6-4135-abcf-aecf472d0c36" Publisher="CN=mirestorm" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="d891f81c-a4e6-4135-abcf-aecf472d0c36" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>XX.Client.UWP</DisplayName>
+    <PublisherDisplayName>mirestorm</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SDKTemplate.App">
+      <uap:VisualElements DisplayName="XX" Square150x150Logo="Assets\microsoft-sdk.png" Square44x44Logo="Assets\microsoft-sdk.png" Description="xxx" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\microsoft-sdk.png" ShortName="XX">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\microsoft-sdk.png" BackgroundColor="#3A3738" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
+  </Capabilities>
+</Package>
